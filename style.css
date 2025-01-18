@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav-bar {
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/** Box 1 **/
+.logo {
+    height: 70px;
+    width: 160px;
+    background-image: url(Flipkart-Logo.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+/** Box 2 **/
+.nav-search{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #D8EFD3;
+    font-size: 0.65rem;
+    border: 2px solid transparent;
+    border-radius: 4px;
+
+}
+.logo-search i{
+    font-size: 20px;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.search-bar{
+    font-size: 1.2rem;
+    display: flex;
+    height: 30px;
+    width: 700px;
+    background-color: #D8EFD3;
+    border: none;
+    outline: none;
+}
+
+/** box 3 **/
+.nav-login {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 115px;
+}
+.nav-login i{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 10px;
+}
+.login-opt select{
+    height: 25px;
+    width: 70px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+/** box 4 **/
+.nav-card{
+    display: flex;
+}
+.nav-card i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.nav-card p {
+    font-weight: 200;
+}
+
+/** Box 5 **/
+.nav-sell{
+    display: flex;
+}
+.nav-sell i{
+    font-size: 25px;
+}
+.nav-sell p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/** box 6 **/
+.nav-dot {
+    font-size: 20px;
+}
+
+/** nav-product **/
+.nav-box2 {
+    background-color: #F1F8E8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-product {
+    height: 130px;
+    width: 98%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-weight: 400;
+}
+.product{
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+}
+.product select {
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
+    position: relative;
+    right: 10px;
+    font-size: 14px;
+}
+.hero-section {
+    height: 250px;
+    width: 100%;   
+    background-image: url(hero.webp);
+    background-size: cover;
+    margin: 5px 20px 5px 20px;
+}
+
+
+/** main section **/
+.main {
+    background-color: #F1F8E8;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-box {
+    height: 350px;
+    width: 80%;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 15px
+}
+.box-heading {
+    font-size: 20px;
+    padding: 16px;
+    color: #212121;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.box {
+    height: 270px;
+    width:  220px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+}
+.box-img {
+    height: 190px;
+    width: 150px;
+    background-size: contain;
+}
+.box p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.box i{
+    font-size: 14px;
+    font-weight: 600;
+}
+.box-price{
+    display: flex;
+    align-items: center;
+}
+.box-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/** product ads box **/
+
+.product-ads {
+    height: 370px;
+    width: 14%;
+    background-color: #ffffff;
+    margin: 10px 20px 10px 15px;
+    position: relative;
+    top: 5px;
+    background-image: url(image6.webp);
+    background-size: cover;
+    padding-right: 10px;
+}
+
+/** main offer section **/
+
+.main-offer {
+    height: 265px;
+    width: 95%;
+    background-color: white;
+    margin: 20px 35px 20px 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contain {
+    height: 265px;
+    width: 33%;
+    background-size: cover;
+}
+
+/** Footer **/
+
+.contain-info{
+    height: 300px;
+    width: 1477px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.info-box{
+    height: 205px;
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+}
+.info-box div {
+    color: #878787;
+    font-size: 14px;
+    margin: 5px 0px 10px;
+}
+.info-box a {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.info-symbol i {
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+}
+
+.ex-box{
+    border-left: 1px solid #454d5e;
+    padding-left: 30px;
+}
+
+/** last section **/
+.last-section{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #454d5e;
+}
+.last-info {
+    display: flex;
+    font-size: 12px;
+}
+.last-info i{
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+}
+.last-info1{
+    height: 14px;
+    width: 377px;
+    background-size: cover;
+}
